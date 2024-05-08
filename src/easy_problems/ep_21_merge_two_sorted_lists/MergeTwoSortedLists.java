@@ -13,7 +13,7 @@ public class MergeTwoSortedLists {
 //        while (list1.next != null) {
 //            if
 //        }
-//        return null;
+        return null;
 
     }
 }
