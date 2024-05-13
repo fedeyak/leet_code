@@ -2,6 +2,10 @@ package easy_problems.ep_21_merge_two_sorted_lists;
 
 public class MergeTwoSortedLists {
 
+    public static void main(String[] args) {
+
+    }
+
     //Runtime 0 ms Beats 100% of users with Java
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {

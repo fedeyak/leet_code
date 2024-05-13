@@ -5,28 +5,28 @@ import java.util.Arrays;
 public class RemoveElement {
 
     public static void main(String[] args) {
-        int[] nums = new int[] {4, 5};
-        System.out.println(removeElement(nums, 4));
+        int[] nums = new int[] {2, 2, 2, 3};
+        System.out.println(removeElement(nums, 2));
         System.out.println(Arrays.toString(nums));
     }
 
+    //Runtime 0 ms Beats 100% of users with Java
+    //However the LeetCode database has a much more elegant solution [https://goo.su/G7jWQBR]
     public static int removeElement(int[] nums, int val) {
+        int counter = 0;
         int temp;
-        int removals = 0;
         int last = nums.length - 1;
-        for (int i = 0; i < last + 1; i++) {
+        for (;counter < (last + 1); counter++) {
             while (nums[last] == val) {
                 if (last == 0) return 0;
                 last--;
-                removals++;
             }
-            if (nums[i] == val) {
+            if (nums[counter] == val) {
                 temp = nums[last];
-                nums[last--] = nums[i];
-                nums[i] = temp;
-                removals++;
+                nums[last--] = nums[counter];
+                nums[counter] = temp;
             }
         }
-        return nums.length - removals;
+        return counter;
     }
 }

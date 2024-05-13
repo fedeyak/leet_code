@@ -111,4 +111,8 @@ public class ValidParentheses {
         Assertions.assertFalse(isValidFirstAttempt(")("));
 //        Assertions.assertFalse(isValidFirstAttempt("([)]"));
     }
+
+    public static void main(String[] args) {
+
+    }
 }
