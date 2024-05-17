@@ -1,4 +1,4 @@
-package easy_problems.ep_27_remove_element;
+package easy_problems.ep_0027_remove_element;
 
 import java.util.Arrays;
 

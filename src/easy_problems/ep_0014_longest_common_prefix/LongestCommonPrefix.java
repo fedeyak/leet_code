@@ -1,4 +1,4 @@
-package easy_problems.ep_14_longest_common_prefix;
+package easy_problems.ep_0014_longest_common_prefix;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

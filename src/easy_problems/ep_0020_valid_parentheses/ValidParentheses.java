@@ -1,4 +1,4 @@
-package easy_problems.ep_20_valid_parentheses;
+package easy_problems.ep_0020_valid_parentheses;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

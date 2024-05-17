@@ -1,4 +1,4 @@
-package easy_problems.ep_28_first_occurrence_in_a_string;
+package easy_problems.ep_0028_first_occurrence_in_a_string;
 
 public class FirstOccurrenceInAString {
 
@@ -12,7 +12,7 @@ public class FirstOccurrenceInAString {
     //Runtime 0 ms Beats 100% of users with Java
     public int strStrIntuitive(String haystack, String needle) {
         for (int i = 0; i < (haystack.length() - (needle.length() - 1)); i++) {
-            if (haystack.substring(i, i + needle.length()).equals(needle)) {
+            if (haystack. substring(i, i + needle.length()).equals(needle)) {
                 return i;
             }
         }

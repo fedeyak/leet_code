@@ -1,4 +1,4 @@
-package easy_problems.ep_26_remove_duplicates_from_sorted_array;
+package easy_problems.ep_0026_remove_duplicates_from_sorted_array;
 
 import java.util.*;
 

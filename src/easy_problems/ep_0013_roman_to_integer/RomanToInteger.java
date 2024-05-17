@@ -1,4 +1,4 @@
-package easy_problems.ep_13_roman_to_integer;
+package easy_problems.ep_0013_roman_to_integer;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package easy_problems.ep_21_merge_two_sorted_lists;
+package easy_problems.ep_0021_merge_two_sorted_lists;
 
 public class MergeTwoSortedLists {
 
