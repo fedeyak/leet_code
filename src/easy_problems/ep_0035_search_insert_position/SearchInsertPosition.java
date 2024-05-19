@@ -1,21 +1,16 @@
 package easy_problems.ep_0035_search_insert_position;
 
+import java.util.Arrays;
+
 public class SearchInsertPosition {
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{5};
-        System.out.println(searchInsert(nums, 6));
-    }
-
-    public static int searchInsert(int[] nums, int target) {
+    // Didn't figure it out. Was trying to mess with the middle. Had to look up for the solution.
+    public int searchInsert(int[] nums, int target) {
         int start = 0;
         int end = nums.length;
         int middle = end / 2;
-        int previous = 0;
-
 
         while (start < end) {
-            previous = middle;
             if (nums[middle] > target) {
                 end = middle;
                 middle = middle / 2;
@@ -24,6 +19,6 @@ public class SearchInsertPosition {
                 middle =  end + (middle - end) / 2;
             } else return middle;
         }
-        return previous + 1;
+        return start;
     }
 }
