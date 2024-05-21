@@ -1,28 +1,22 @@
 package easy_problems.ep_744_find_smallest_letter;
 
+import java.util.Arrays;
+
 public class FindSmallestLetter {
 
-    public static void main(String[] args) {
-        char[] letters = {'c','f','j'};
-        System.out.println(nextGreatestLetter(letters, 'c'));
-    }
-
-    public static char nextGreatestLetter(char[] letters, char target) {
-        if (letters[0] > target) return letters[0];
+    // 0 mc, 44.06 MB
+    public char nextGreatestLetter(char[] letters, char target) {
         int start = 0;
-        int end = letters.length;
+        int end = letters.length-1;
         int middle = end / 2;
 
-        while (start < end) {
-            if (letters[middle] > target) {
-                end = middle;
-                middle = middle / 2;
-            } else if (letters[middle] < target) {
-                start = middle + 1;
-                middle = end + (middle - end) / 2;
-            } else return (char) (letters[middle + 1]);
+        if (letters[start] > target || letters[end] <= target) {
+            return (char) letters[start];
         }
-        return letters[end];
+        if (letters[middle] <= target) {
+            return nextGreatestLetter(Arrays.copyOfRange(letters, middle+1, end+1), target);
+        }
+        return nextGreatestLetter(Arrays.copyOfRange(letters, start, middle+1), target);
     }
 
 }
