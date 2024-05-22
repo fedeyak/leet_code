@@ -4,12 +4,6 @@ import java.util.Arrays;
 
 public class FirstAndLastPosition {
 
-    public static void main(String[] args) {
-        int[] nums = {};
-        System.out.println(Arrays.toString(nums));
-    }
-
-
     // 0 ms
     public int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) return new int[] {-1, -1};
