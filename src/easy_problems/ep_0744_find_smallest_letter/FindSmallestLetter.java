@@ -1,4 +1,4 @@
-package easy_problems.ep_744_find_smallest_letter;
+package easy_problems.ep_0744_find_smallest_letter;
 
 import java.util.Arrays;
 
