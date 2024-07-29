@@ -1,7 +1,8 @@
 package easy_problems.ep_0009_palindrome_number;
 
+import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
 import static java.lang.Math.*;
 
