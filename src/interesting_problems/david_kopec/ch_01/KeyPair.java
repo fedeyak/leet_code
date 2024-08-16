@@ -1,4 +1,4 @@
-package interesting_problems.ch_01;
+package interesting_problems.david_kopec.ch_01;
 
 public final class KeyPair {
     public final byte[] key1;

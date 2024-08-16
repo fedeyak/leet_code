@@ -1,4 +1,4 @@
-package interesting_problems.ch_01.pi_calculator;
+package interesting_problems.david_kopec.ch_01.pi_calculator;
 
 public class PiCalculator {
     public static double calculatePi(int nTerms) {

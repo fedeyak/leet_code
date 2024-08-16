@@ -1,6 +1,6 @@
-package interesting_problems.ch_01.encryption;
+package interesting_problems.david_kopec.ch_01.encryption;
 
-import interesting_problems.ch_01.KeyPair;
+import interesting_problems.david_kopec.ch_01.KeyPair;
 
 import java.util.Random;
 

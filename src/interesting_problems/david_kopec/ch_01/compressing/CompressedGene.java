@@ -1,4 +1,4 @@
-package interesting_problems.ch_01.compressing;
+package interesting_problems.david_kopec.ch_01.compressing;
 
 import java.util.BitSet;
 
