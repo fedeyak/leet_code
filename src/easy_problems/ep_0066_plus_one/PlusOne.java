@@ -1,4 +1,4 @@
-package easy_problems.ep_66_plus_one;
+package easy_problems.ep_0066_plus_one;
 
 import java.util.Arrays;
 
