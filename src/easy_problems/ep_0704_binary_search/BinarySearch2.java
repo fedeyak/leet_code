@@ -33,7 +33,6 @@ public class BinarySearch2 {
                 return mid; // key found
         }
         return -1;
-//        return -(low + 1);  // key not found.
     }
 
 //    private static int search(int[] nums, int target) {

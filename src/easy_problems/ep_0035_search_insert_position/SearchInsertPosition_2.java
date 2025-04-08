@@ -11,13 +11,16 @@ public class SearchInsertPosition_2 {
 
     public int searchInsert(int[] nums, int target) {
         int low = 0;
-        int high = nums.length;
+        int high = nums.length - 1;
 
-        while (low < high) {
+        while (low <= high) {
             int middle = low + ((high - low) / 2);
             int middleValue = nums[middle];
+            if (target == middleValue) {
+                return middle;
+            }
             if (target <= middleValue) {
-                high = middle;
+                high = middle - 1;
             }
             if (middleValue < target) {
                 low = middle + 1;
